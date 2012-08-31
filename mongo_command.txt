@@ -1,0 +1,3 @@
+ > mongoexport --db chicos_db --collection states --out d:\mongodb\data\states.json
+ > mongoimport --db chicos_db --collection states --file states.json
+ > mongodump  --db chicos_db
